@@ -21,7 +21,7 @@ const PhoneNumber = require('awesome-phonenumber');
 const { Boom } = require('@hapi/boom');
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid, addExif } = require('./lib/exif')
 const { smsg, sleep, getBuffer } = require('./lib/func.js')
-const pw = "YOUR PASSWORD";
+const pw = "Maniz";
 
 const store = makeInMemoryStore({
     logger: pino().child({
